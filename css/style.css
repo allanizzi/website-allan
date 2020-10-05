@@ -1,0 +1,343 @@
+@media (min-width: 780px) {
+  .masthead .svg-header .illustration {
+    display: inline !important;
+    width: 47%;
+  }
+  .masthead .svg-header .standing {
+    width: 9% !important;
+    margin-right: 10% !important;
+  }
+  .masthead .svg-header .standing2 {
+    width: 13% !important;
+    margin-left: 10% !important;
+  }
+}
+@media (min-width: 992px) {
+  header.masthead {
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 995px) {
+  #mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background-color: #fff !important;
+    transition: background-color 0.4s ease;
+  }
+}
+#mainNav .container {
+  font-family: "Handlee", cursive;
+}
+#mainNav .container .navbar-brand {
+  color: #171819;
+  font-size: 2.3rem;
+  width: 230px;
+}
+#mainNav .container .navbar-brand img {
+  width: 15%;
+  margin-right: 10px;
+  min-width: 60px;
+}
+#mainNav .container .navbar-brand span {
+  vertical-align: sub;
+}
+#mainNav .container .navbar-collapse {
+  font-size: 1.4em;
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+#mainNav .container .navbar-collapse .nav-link {
+  color: rgba(18, 17, 17, 0.93);
+}
+#mainNav .container .navbar-collapse .nav-link:hover {
+  color: #ffffffd4;
+}
+
+#mainNav {
+  box-shadow: none;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ae1b1b;
+}
+
+#mainNav.navbar-scrolled {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.4s ease;
+}
+
+.avatar-moi {
+  border-radius: 50%;
+  border: 3px solid rgba(226, 221, 221, 0.945);
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+header.masthead {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  background: linear-gradient(to bottom, rgba(212, 200, 191, 0.8) 0%, #E12626 110%), url("../img/masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.masthead .text-masthead {
+  font-family: "Karla", sans-serif;
+}
+.masthead .pic-text {
+  min-height: 391px;
+}
+.masthead .divider {
+  width: 120px;
+  border-width: 0.2rem;
+  border-color: #ae1b1b;
+}
+.masthead .text-presentation {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1em;
+  color: #232121;
+}
+.masthead .btn-decouvrir {
+  padding: 1.25rem 2.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  background-color: #800808;
+  border-color: #800808;
+  color: white;
+  margin-top: 50px;
+  transition: 0.25s;
+}
+.masthead .btn-decouvrir:hover {
+  box-shadow: 0px 10px 7px #800808ad;
+  transform: translateY(-0.3em);
+}
+.masthead .svg-header .illustration {
+  display: none;
+}
+.masthead .svg-header .standing {
+  width: 16%;
+  margin-right: 10%;
+}
+.masthead .svg-header .standing2 {
+  width: 23%;
+  margin-left: 10%;
+  transform: rotateY(180deg);
+}
+
+.section-chiffres {
+  padding: 3em;
+  background-color: #F4F2F2;
+  position: relative;
+}
+.section-chiffres .container-fluid .title-chiffres {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.section-chiffres .container-fluid .divider {
+  width: 120px;
+  border-width: 0.2rem;
+  border-color: #ae1b1b;
+}
+.section-chiffres .container-fluid .div-chiffres {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.section-chiffres .container-fluid .div-chiffres .div-counter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  max-width: 30%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  min-width: 240px;
+  margin: 20px;
+}
+.section-chiffres .container-fluid .div-chiffres .div-counter :nth-child(1) {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.section-chiffres .container-fluid .div-chiffres .div-counter :nth-child(2) {
+  color: #ae1b1b;
+  font-size: 2rem;
+}
+
+.my-formation {
+  padding: 3em;
+  position: relative;
+}
+.my-formation .container-fluid .title-formation {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+.my-formation .container-fluid .divider {
+  width: 120px;
+  border-width: 0.2rem;
+  border-color: #ae1b1b;
+}
+.my-formation .container-fluid .div-formation {
+  margin-top: 4rem;
+  padding-left: 3rem;
+  border-left: 3px solid #ae1b1b;
+}
+.my-formation .container-fluid .div-formation div:nth-child(odd) {
+  text-align: left;
+}
+.my-formation .container-fluid .div-formation div:nth-child(even) {
+  text-align: right;
+}
+.my-formation .container-fluid .div-formation .div-lp {
+  margin-top: 0 !important;
+}
+.my-formation .container-fluid .div-formation .div-school {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  min-width: 240px;
+  margin: 3rem 0;
+  text-align: center;
+}
+.my-formation .container-fluid .div-formation .div-school :nth-child(1) {
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+.my-formation .container-fluid .div-formation .div-school :nth-child(2) {
+  color: #804444;
+  font-size: 1.3rem;
+}
+.my-formation .container-fluid .div-formation .div-school :nth-child(3) {
+  color: #ae1b1b;
+  font-size: 1.7rem;
+}
+.my-formation .container-fluid .div-formation .div-school .icon-school {
+  width: 2.3rem;
+  vertical-align: text-top;
+}
+
+.title-experiences {
+  padding: 1.3rem;
+  background: linear-gradient(to right, #333333, #dd1818);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.title-experiences .container-fluid .title-exp {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #e3dfdf;
+}
+.title-experiences .container-fluid .divider {
+  width: 120px;
+  border-width: 0.2rem;
+  border-color: #e3dfdf;
+}
+
+.experiences {
+  padding: 3rem;
+  position: relative;
+}
+.experiences .container .card-header {
+  cursor: pointer;
+}
+.experiences .container .header-onepoint {
+  background-image: url("../img/onepoint.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 0;
+}
+.experiences .container .header-cnpe {
+  background-image: url("../img/cnpe-cattenom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 0;
+}
+.experiences .container .header-teletravail {
+  background-image: url("../img/teletravail.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 0;
+}
+.experiences .container .title-society {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  background-color: #000000ab;
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.experiences .container .title-society span {
+  color: white;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.blur-filter {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  opacity: 75%;
+  filter: blur(20px);
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes color_change {
+  0% {
+    color: #fdb7dc;
+  }
+  25% {
+    color: #79cbca;
+  }
+  50% {
+    color: #79c2f3;
+  }
+  75% {
+    color: #18ffff;
+  }
+  100% {
+    color: #e9a5e5;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
