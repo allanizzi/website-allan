@@ -1,0 +1,345 @@
+@import 'medias.scss';
+
+$primary-color: #ae1b1b;
+
+#mainNav .container {
+    font-family: 'Handlee', cursive;
+    .navbar-brand {
+        color: rgb(23, 24, 25);
+        font-size: 2.3rem;
+        width: 230px;
+        img {
+            width: 15%;
+            margin-right: 10px;
+            min-width: 60px;
+        }
+        span {
+            vertical-align: sub;
+        }
+    }
+    .navbar-collapse {
+        font-size: 1.4em;
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        .nav-link {
+            color: rgba(18, 17, 17, 0.93);
+            &:hover {
+                color: #ffffffd4;
+            }
+        }
+    }
+    
+}
+
+
+#mainNav {
+    box-shadow: none;
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+    .navbar-nav .nav-item .nav-link:hover {
+        color: $primary-color;
+    }
+}
+
+#mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.4s ease;
+}
+
+
+// DEBUT HEADER
+
+.avatar-moi {
+    border-radius: 50%;
+    border: 3px solid rgba(226, 221, 221, 0.945);
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(to bottom, rgba(212, 200, 191, 0.8) 0%, #E12626 110%), url("../img/masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.masthead {
+    .text-masthead {
+        font-family: 'Karla', sans-serif;
+    }
+
+    .pic-text {
+        min-height: 391px;
+    }
+
+    .divider {
+        width: 120px;
+        border-width: 0.2rem;
+        border-color: $primary-color;
+    }
+
+    .text-presentation {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.1em;
+        color: #232121;
+    }
+    
+    .btn-decouvrir {
+        padding: 1.25rem 2.25rem;
+        border-radius: 10rem;
+        text-transform: uppercase;
+        font-family: 'Rubik', sans-serif;
+        background-color: #800808;
+        border-color: #800808;
+        color: white;
+        margin-top: 50px;
+        transition: 0.25s;
+        &:hover {
+            box-shadow: 0px 10px 7px #800808ad;
+            transform: translateY(-0.3em);
+        }
+    }
+
+    .svg-header {
+        .illustration {
+            display: none;
+        }
+        .standing {
+            width: 16%;
+            margin-right: 10%;
+        }
+
+        .standing2 {
+            width: 23%;
+            margin-left: 10%;
+            transform: rotateY(180deg);
+        }
+    }
+}
+// fin header 
+
+
+// DEBUT SECTION ABOUT EN QUELQUES CHIFFRES SUR MOI
+
+.section-chiffres {
+    padding: 3em;
+    background-color: #F4F2F2;
+    position: relative;
+    .container-fluid {
+        .title-chiffres {
+            text-transform: uppercase;
+            font-family: 'Rubik', sans-serif;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+        .divider {
+            width: 120px;
+            border-width: 0.2rem;
+            border-color: $primary-color;
+        }
+
+        .div-chiffres {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 4rem;
+            flex-wrap: wrap;
+            .div-counter {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-transform: uppercase;
+                font-family: 'Rubik', sans-serif;
+                max-width: 30%;
+                font-weight: 300;
+                letter-spacing: 2px;
+                min-width: 240px;
+                margin: 20px;
+                :nth-child(1) {
+                    font-weight: 500;
+                    font-size: 2.5rem;
+                }
+                :nth-child(2) {
+                    color: $primary-color;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+// fin section chiffres
+
+// début section formation
+.my-formation {
+    padding: 3em;
+    position: relative;
+    .container-fluid {
+        .title-formation {
+            text-transform: uppercase;
+            font-family: 'Rubik', sans-serif;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+        .divider {
+            width: 120px;
+            border-width: 0.2rem;
+            border-color: $primary-color;
+        }
+
+        .div-formation {
+            margin-top: 4rem;
+            padding-left: 3rem;
+            border-left: 3px solid $primary-color;
+            div:nth-child(odd) {
+                text-align: left;
+            }
+            div:nth-child(even) {
+                text-align: right;
+            }
+            .div-lp {
+                margin-top: 0 !important;
+            }
+            .div-school {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-transform: uppercase;
+                font-family: 'Rubik', sans-serif;
+                font-weight: 300;
+                letter-spacing: 2px;
+                min-width: 240px;
+                margin: 3rem 0;
+                text-align: center;
+                :nth-child(1) {
+                    font-weight: 400;
+                    font-size: 2.3rem;
+                }
+                :nth-child(2) {
+                    color: #804444;
+                    font-size: 1.3rem;
+                }
+                :nth-child(3) {
+                    color: $primary-color;
+                    font-size: 1.7rem;
+                }
+                .icon-school {
+                    width: 2.3rem;
+                    vertical-align: text-top;
+                }
+            }
+        }
+    }
+}
+
+// fin section formation
+
+// Début section experiences
+
+.title-experiences {
+    padding: 1.3rem;
+    background: linear-gradient(to right, #333333, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    padding-bottom: .5rem;
+    .container-fluid {
+        .title-exp {
+            text-transform: uppercase;
+            font-family: 'Rubik', sans-serif;
+            font-size: 2.5em;
+            font-weight: 500;
+            color: #e3dfdf;
+        }
+        .divider {
+            width: 120px;
+            border-width: 0.2rem;
+            border-color: #e3dfdf;
+        }
+    }
+}
+.experiences {
+    padding: 3rem;
+    position: relative;
+    .container {
+        .card-header {
+            cursor: pointer;
+        }
+        .header-onepoint {
+            background-image: url("../img/onepoint.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            padding: 0;
+            
+        }
+
+        .header-cnpe {
+            background-image: url("../img/cnpe-cattenom.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            padding: 0;            
+        }
+
+        .header-teletravail {
+            background-image: url("../img/teletravail.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            padding: 0;            
+        }
+
+        .title-society {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 150px;
+            background-color: #000000ab;
+            border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+            span {
+                color: white;
+                font-family: 'Karla', sans-serif;
+                text-transform: uppercase;
+                font-size: 2.3rem;
+                padding: 2rem;
+                padding-bottom: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.blur-filter {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    opacity: 75%;
+    filter: blur(20px);
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+@keyframes color_change {
+	0% { color: rgba(253,183,220,1); }
+    25% { color: rgba(121,203,202,1); }
+    50% { color: rgba(121,194,243,1); }
+    75% { color:  rgba(24,255,255,1); }
+    100% { color:  rgb(233, 165, 229); }
+}
