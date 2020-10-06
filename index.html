@@ -33,9 +33,10 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#plus">En savoir plus</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#travail">Travail</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Quelques chiffres</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#parcours">Parcours</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experiences">Expériences</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Projets</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -59,10 +60,11 @@
                     <div class="col-lg-10 align-self-baseline">
                         <div class="svg-header">
                             <img class="standing" src="img/standing-man.png">
-                            <img class="illustration" src="img/illustration-header.svg">
+                            <!-- <img class="illustration" src="img/illustration-header.svg"> -->
+                            <a class="btn btn-decouvrir btn-xl js-scroll-trigger" href="#about">Découvrons cela</a>
+                            <img class="standing-sm" src="img/standing-man.png">
                             <img class="standing2" src="img/standing-man2.png">
                         </div>
-                        <a class="btn btn-decouvrir btn-xl js-scroll-trigger" href="#about">Découvrons cela</a>
                     </div>
                 </div>
             </div>
@@ -78,22 +80,22 @@
                         <div class="div-chiffres">
                             <div class="div-age div-counter">
                                 <span class="counter-age counter-number" id="counter-age">22</span>
-                                <span class="age">années sur terre</span>
+                                <span class="age"><img src="img/icon-calendar.svg"> années sur terre</span>
                             </div>
                             
                             <div class="div-etudes div-counter">
                                 <span class="counter-etudes counter-number" id="counter-etudes">4</span>
-                                <span class="annees-etudes">années d'études post bac (bac+3)</span>
+                                <span class="annees-etudes"><img src="img/icon-study.svg"> années d'études post bac (bac+3)</span>
                             </div>
 
                             <div class="div-diplomes div-counter">
                                 <span class="counter-dimplomes counter-number" id="counter-dimplomes">3</span>
-                                <span class="nb-diplomes">diplômes (BTS / DUT / Licence)</span>
+                                <span class="nb-diplomes"><img src="img/icon-graduate.svg"> diplômes (BTS / DUT / Licence)</span>
                             </div>
 
                             <div class="div-cafe div-counter">
                                 <span class="counter-cafe counter-number" id="counter-cafe">0</span>
-                                <span class="nb-cafe">nombre de cafés nécessaires pour travailler la nuit</span>
+                                <span class="nb-cafe"><img src="img/icon-cofee.svg"> cafés nécessaires pour travailler la nuit</span>
                             </div>
                         </div>
                     </div>
@@ -102,16 +104,16 @@
         </section>
         <!-- Fin section chiffres sur moi -->
 
-        <!-- Début section ma formation -->
+        <!-- Début section ma parcours -->
         
-        <section class="my-formation" id="timeline">
+        <section class="my-parcours" id="parcours">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h2 class="title-formation">Formation</h2>
+                        <h2 class="title-parcours">parcours</h2>
                         <hr class="divider my-4" />
                     </div>
-                    <div class="div-formation col-sm-10 mx-auto">
+                    <div class="div-parcours col-sm-10 mx-auto">
                         <div class="div-lp div-school">
                             <span class="licence school-name"><img class="icon-school" src="img/icon-school.svg"> Nancy Charlemagne</span>
                             <span class="years">2019-2020</span>
@@ -136,7 +138,7 @@
 
         </section>
 
-        <!-- Fin section formation -->
+        <!-- Fin section parcours -->
 
         <!-- Début section expérience -->
         <section class="title-experiences" id="experiences">
@@ -153,7 +155,34 @@
             <div class="container">
                 <div id="accordion">
                     <div class="card">
-                        <div class="card-header header-onepoint" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="card-header header-teletravail" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <div class="title-society">
+                                <span class="mb-0">
+                                Projet télétravail
+                                </span>
+                            </div>
+                        </div>
+                
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <span class="annee-exp">[Stage LP CIASIE] || Juin 2020 - Juillet 2020</span>
+                                <div class="descr-exp">
+                                    <span>Conception d'un nouveau site web pour le restaurant Angeluzzo.</br>
+                                    Travail réalisé seul à domicile en remplacement d'un stage en entreprise suite aux évènements liés au COVID-19.</span>
+                                    <ul>
+                                        <li>Focalisation sur les aspects d'UX / UI Design</li>
+                                        <li>Analyse de l'existant et propositions des nouvelles idées à la directrice du restaurant.</li>
+                                        <li>Création de maquettes intéractives et testées pour la récupération de feedbacks utilisateurs</li>
+                                        <li>Ajustement des éléments en fonction des retours utilisateurs</li>
+                                        <li>Vue JS / Bulma / Buefy / Vuetify / JavaScript / Scss</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header header-onepoint" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <div class="title-society">
                                 <span class="mb-0">
                                 Onepoint PSF Luxembourg
@@ -161,11 +190,12 @@
                             </div>
                         </div>
                 
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                <span class="annee-exp">Mai 2019 - Juillet 2019 / Janvier 2018 - Mars 2018</span>
+                                <span class="annee-exp">[Stage DUT - BTS] || Mai 2019 - Juillet 2019 / Janvier 2018 - Mars 2018</span>
                                 <div class="descr-exp">
-                                    <span>Analyse, développement, intégration et documentation d'une application Multi-Tiers .NET existante sur 2 années de stages consécutifs.</span>
+                                    <span>Analyse, développement, intégration et documentation d'une application Multi-Tiers .NET existante sur 2 années de stages consécutifs.</br>
+                                    L'application permettant de gérer les cotisations des membres d'une organisation, elle gérait principalement les cotisations par virement SEPA en visualisant les historiques clients et leurs informations.</span>
                                     <ul>
                                         <li>Intégration d'un espace de connexion suite à la migration on-cloud ainsi que d'une fenêtre de chargement lors de l'insertion de données en base (nouveau processus)</li>
                                         <li>Optimisation des temps de traitement, de procédures stockées, amélioration du code</li>
@@ -177,7 +207,7 @@
                     </div>
 
                     <div class="card">
-                        <div class="card-header header-cnpe" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="card-header header-cnpe" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <div class="title-society">
                                 <span class="mb-0">
                                 CNPE Cattenom
@@ -185,27 +215,54 @@
                             </div>
                         </div>
                 
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <span class="annee-exp">[Stage BTS SIO] || Mai 2017 - Juillet 2017</span>
+                                <div class="descr-exp">
+                                    <span>Développement d'une application web pour la gestion des arrêts de tours lors de maintenances.</br>
+                                    Application dédiée au service informatique permettant d'organiser les tâches à effectuer.</br>
+                                    Travail réalisé en groupe de 3 stagiaires.</span>
+                                    <ul>
+                                        <li>Mise en place d'un calendrier dynamique affichant les tâches à accomplir.</li>
+                                        <li>Ajout de fonctionnalités liées aux tâches (CRUD).</li>
+                                        <li>HTML / CSS / JavaScript / PHP / SQL</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header header-teletravail" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <div class="title-society">
-                                <span class="mb-0">
-                                Projet télétravail
-                                </span>
-                            </div>
-                        </div>
-                
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin section experience -->
+
+        <!-- Début section travail effectué / portfolio -->
+        <section class="title-work" id="work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2 class="title-wrk">Mes projets</h2>
+                        <hr class="divider my-4" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-work">
+            <div class="container">
+                <div class="box">
+                    <img src="img/img-restaurant.jpg">
+                    <div class="work-name">
+                        <span>Angelùzzo restaurant</span>
+                        <span>Website</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/resume.jpg">
+                    <div class="work-name">
+                        <span>Allan IZZI</span>
+                        <span>CV</span>
                     </div>
                 </div>
             </div>
