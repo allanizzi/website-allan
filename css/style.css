@@ -1,11 +1,17 @@
 @media (min-width: 500px) {
+  .masthead .svg-header .sitting-man {
+    display: none;
+  }
   .masthead .svg-header .standing {
     display: inline !important;
     width: 16%;
     margin-right: 7%;
   }
-  .masthead .svg-header .standing-sm {
-    display: none;
+  .masthead .svg-header .standing2 {
+    display: inline !important;
+    width: 23%;
+    margin-left: 5%;
+    transform: rotateY(180deg);
   }
 }
 @media (min-width: 780px) {
@@ -38,6 +44,7 @@
 }
 body {
   font-family: "Rubik", sans-serif !important;
+  min-width: 450px;
 }
 
 #mainNav .container {
@@ -133,17 +140,13 @@ header.masthead {
   box-shadow: 0px 10px 7px #800808ad;
   transform: translateY(-0.3em);
 }
-.masthead .svg-header .illustration, .masthead .svg-header .standing {
+.masthead .svg-header .illustration, .masthead .svg-header .standing, .masthead .svg-header .standing2 {
   display: none;
 }
-.masthead .svg-header .standing-sm {
-  width: 16%;
-  margin-right: 7%;
-}
-.masthead .svg-header .standing2 {
+.masthead .svg-header .sitting-man {
+  display: block !important;
   width: 23%;
-  margin-left: 5%;
-  transform: rotateY(180deg);
+  margin: auto;
 }
 
 .section-chiffres {
@@ -512,6 +515,7 @@ header.masthead {
 .my-footer {
   position: fixed;
   width: 100%;
+  min-width: 450px;
   background-color: white;
   padding: 5px;
   font-family: "Karla", sans-serif;

@@ -4,6 +4,7 @@ $primary-color: #ae1b1b;
 
 body {
     font-family: 'Rubik', sans-serif !important;
+    min-width: 450px;
 }
 
 #mainNav .container {
@@ -111,18 +112,13 @@ header.masthead {
     }
 
     .svg-header {
-        .illustration, .standing {
+        .illustration, .standing, .standing2 {
             display: none;
         }
-        .standing-sm {
-            width: 16%;
-            margin-right: 7%;
-        }
-
-        .standing2 {
+        .sitting-man {
+            display: block !important;
             width: 23%;
-            margin-left: 5%;
-            transform: rotateY(180deg);
+            margin: auto;
         }
     }
 }
@@ -534,6 +530,7 @@ header.masthead {
 .my-footer {
     position: fixed;
     width: 100%;
+    min-width: 450px;
     background-color: white;
     padding: 5px;
     font-family: 'Karla', sans-serif;

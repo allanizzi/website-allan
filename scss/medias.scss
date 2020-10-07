@@ -1,14 +1,20 @@
 @media (min-width: 500px) {
   .masthead {
     .svg-header {
-      .standing {
-          display: inline !important;
-          width: 16%;
-          margin-right: 7%;
-      }
-      .standing-sm {
+      .sitting-man {
         display: none;
       }
+      .standing {
+        display: inline !important;
+        width: 16%;
+        margin-right: 7%;
+      }
+      .standing2 {
+        display: inline !important;
+        width: 23%;
+        margin-left: 5%;
+        transform: rotateY(180deg);
+    }
     }
   }
 }
