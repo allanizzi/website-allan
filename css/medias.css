@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
   .masthead .svg-header .sitting-man {
-    display: none;
+    display: none !important;
   }
   .masthead .svg-header .standing {
     display: inline !important;
