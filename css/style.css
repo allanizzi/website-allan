@@ -384,6 +384,13 @@ header.masthead {
   flex: 1 1 50%;
   cursor: pointer;
 }
+.my-work .container .box:hover .work-detail {
+  opacity: 1;
+  transition: 0.5s;
+}
+.my-work .container .box:hover .work-name {
+  opacity: 0;
+}
 .my-work .container .box:hover > img {
   width: 100%;
   height: 100%;
@@ -406,6 +413,8 @@ header.masthead {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+  opacity: 1;
 }
 .my-work .container .box .work-name span {
   padding: 3px 9px;
@@ -422,6 +431,68 @@ header.masthead {
   margin-top: 1rem;
   background-color: #ae1b1bd6;
   color: white;
+}
+.my-work .container .box .work-name .icon-loupe {
+  width: 10%;
+  margin: 1rem;
+}
+.my-work .container .box .work-name .icon-loupe svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffffe3;
+}
+.my-work .container .box .work-detail {
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000bf;
+}
+.my-work .container .box .work-detail span {
+  padding: 10px;
+  letter-spacing: 3px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: white;
+  width: 70%;
+  font-weight: 400px;
+  border: 2px solid white;
+  background-color: #00000085;
+}
+.my-work .container .box .work-detail .icon-go-hub {
+  width: 17%;
+  margin: 1rem;
+  display: flex;
+}
+.my-work .container .box .work-detail .icon-go-hub svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffffe3;
+  margin-left: 1rem;
+}
+.my-work .container .box .work-detail .icon-see-resume {
+  width: 25%;
+  margin: 1rem;
+  display: flex;
+}
+.my-work .container .box .work-detail .icon-see-resume a {
+  width: 100%;
+  height: 100%;
+}
+.my-work .container .box .work-detail .icon-see-resume a svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffffe3;
 }
 .my-work .container > :nth-child(1) {
   border-radius: 10px 0 0 10px;
