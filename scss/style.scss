@@ -529,6 +529,49 @@ header.masthead {
     }
 }
 
+// Section footer bas de page
+
+.my-footer {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0 -3px 1rem rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    bottom: 0;
+    span {
+        color: black;
+    }
+    >:nth-child(1) {
+        font-family: 'Marck Script', cursive;
+        font-size: 1.5rem;
+    }
+    >:nth-child(2) {
+        font-size: .9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    >:nth-child(3) {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        a {
+            margin-left: 2rem;
+            width: 1.3rem;
+            svg {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// fin section footer
+
+
 .blur-filter {
     width: 100vw;
     height: 100vh;

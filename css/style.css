@@ -509,6 +509,44 @@ header.masthead {
   background-color: #000000cf;
 }
 
+.my-footer {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  font-family: "Karla", sans-serif;
+  box-shadow: 0 -3px 1rem rgba(0, 0, 0, 0.23);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  bottom: 0;
+}
+.my-footer span {
+  color: black;
+}
+.my-footer > :nth-child(1) {
+  font-family: "Marck Script", cursive;
+  font-size: 1.5rem;
+}
+.my-footer > :nth-child(2) {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-footer > :nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.my-footer > :nth-child(3) a {
+  margin-left: 2rem;
+  width: 1.3rem;
+}
+.my-footer > :nth-child(3) a svg {
+  width: 100%;
+}
+
 .blur-filter {
   width: 100vw;
   height: 100vh;
