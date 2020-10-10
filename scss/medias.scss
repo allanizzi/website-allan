@@ -2,6 +2,31 @@
   header.masthead {
     background-attachment: fixed !important;
   }
+
+  .experiences {
+    .container #accordion {
+      .title-society {
+        justify-content: space-between !important;
+        padding: 2rem;
+        >:nth-child(2) {
+          display: block !important;
+          fill: white;
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    .card {
+      >.collapsed {
+        .title-society {
+          :nth-child(2) {
+            transform: rotate(180deg);
+            transition: .5s;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 500px) {
