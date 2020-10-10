@@ -4,7 +4,7 @@ $primary-color: #ae1b1b;
 
 body {
     font-family: 'Rubik', sans-serif !important;
-    min-width: 450px;
+    min-width: 340px;
 }
 
 #mainNav .container {
@@ -70,7 +70,6 @@ header.masthead {
     background: linear-gradient(to bottom, rgba(212, 200, 191, 0.8) 0%, #E12626 110%), url("../img/masthead.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -105,6 +104,7 @@ header.masthead {
         color: white;
         transition: 0.25s;
         margin-bottom: 1.5rem;
+        letter-spacing: 2px;
         &:hover {
             box-shadow: 0px 10px 7px #800808ad;
             transform: translateY(-0.3em);
@@ -136,6 +136,7 @@ header.masthead {
             text-transform: uppercase;
             font-size: 2.5em;
             font-weight: 500;
+            letter-spacing: 4px;
         }
         .divider {
             width: 120px;
@@ -184,8 +185,9 @@ header.masthead {
     .container-fluid {
         .title-parcours {
             text-transform: uppercase;
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: 500;
+            letter-spacing: 4px;
         }
         .divider {
             width: 120px;
@@ -218,18 +220,18 @@ header.masthead {
                 text-align: center;
                 :nth-child(1) {
                     font-weight: 400;
-                    font-size: 2.3rem;
+                    font-size: 1.8rem;
                 }
                 :nth-child(2) {
                     color: #804444;
-                    font-size: 1.3rem;
+                    font-size: 1rem;
                 }
                 :nth-child(3) {
                     color: $primary-color;
-                    font-size: 1.7rem;
+                    font-size: 1.4rem;
                 }
                 .icon-school {
-                    width: 2.3rem;
+                    width: 1.8rem;
                     vertical-align: text-top;
                 }
             }
@@ -249,9 +251,10 @@ header.masthead {
     .container-fluid {
         .title-exp {
             text-transform: uppercase;
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: 500;
             color: #efefef;
+            letter-spacing: 4px;;
         }
         .divider {
             width: 120px;
@@ -316,9 +319,8 @@ header.masthead {
                 color: white;
                 font-family: 'Karla', sans-serif;
                 text-transform: uppercase;
-                font-size: 2.3rem;
+                font-size: 1.6rem;
                 padding: 2rem;
-                padding-bottom: 1rem;
                 text-align: center;
                 letter-spacing: 2px;
             }
@@ -331,7 +333,7 @@ header.masthead {
             }
             .descr-exp {
                 margin: 1.5rem;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 letter-spacing: 1px;
                 ul {
                     margin-top: 1rem;
@@ -358,9 +360,10 @@ header.masthead {
     .container {
         .title-wrk {
             text-transform: uppercase;
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: 500;
             color: #efefef;
+            letter-spacing: 4px;
         }
         .divider {
             width: 120px;
@@ -377,14 +380,15 @@ header.masthead {
         margin-bottom: 6rem;
         display: flex;
         box-sizing: border-box;
+        flex-direction: column;
         .box {
             flex: 1;
             overflow: hidden;
             transition: .5s;
             margin: 0;
-            height: 25vw;
             box-shadow: 0 20px 30px rgba(0,0,0,.1);
             position: relative;
+            margin-bottom: .2rem;
             &:hover {
                 flex: 1 1 50%;
                 cursor: pointer;
@@ -402,7 +406,7 @@ header.masthead {
             }
             
             img {
-                width: 200%;
+                width: 100%;
                 height: 100%;
                 object-fit: cover; 
                 transition: .5s;
@@ -422,6 +426,7 @@ header.masthead {
                 align-items: center;
                 transition: .5s;
                 opacity: 1;
+                background-color: #00000026;
                 span {
                     padding: 3px 9px;
                     text-transform: uppercase;
@@ -430,22 +435,16 @@ header.masthead {
                     border-radius: 5px;
                 }
                 :nth-child(1) {
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                 }
                 :nth-child(2) {
                     font-size: 1.3rem;
                     margin-top: 1rem;
-                    background-color: #ae1b1bd6;
+                    background-color: #ae1b1be0;
                     color: white;
                 }
                 .icon-loupe {
-                    width: 10%;
-                    margin: 1rem;
-                    svg {
-                        width: 100%;
-                        height: 100%;
-                        fill: #ffffffd8;
-                    }
+                    display: none;
                 }
             }
 
@@ -469,16 +468,17 @@ header.masthead {
                     letter-spacing: 3px;
                     font-family: 'Rubik', sans-serif;
                     border-radius: 5px;
-                    font-size: 1.8rem;
+                    font-size: 1.2rem;
                     color: white;
-                    width: 70%;
+                    width: 90%;
                     font-weight: 400px;
                     border: 2px solid white;
                     background-color: #00000085;
                 }
                 .icon-go-hub {
-                    width: 17%;
+                    width: 27%;
                     margin: 1rem;
+                    margin-bottom: 0.5rem;
                     display: flex;
                     svg {
                         width: 100%;
@@ -503,17 +503,21 @@ header.masthead {
                 }
             }
         }
+        >:first-child {
+            border-radius: 10px 10px 0 0;
+        }
+        >:last-child {
+            border-radius: 0 0 10px 10px;
+        }
         >:nth-child(1) {
-            border-radius: 10px 0 0 10px;
             .work-name {
                 span {
                     color: black;
-                    background-color: #fffc;
+                    background-color: #ffffffde;
                 }
             }
         }
         >:nth-child(2) {
-            border-radius: 0 10px 10px 0;
             .work-name {
                 span {
                     color: white;
@@ -530,7 +534,6 @@ header.masthead {
 .my-footer {
     position: fixed;
     width: 100%;
-    min-width: 450px;
     background-color: white;
     padding: 5px;
     font-family: 'Karla', sans-serif;
@@ -543,8 +546,7 @@ header.masthead {
         color: black;
     }
     >:nth-child(1) {
-        font-family: 'Marck Script', cursive;
-        font-size: 1.5rem;
+        display: none;
     }
     >:nth-child(2) {
         font-size: .9rem;
@@ -570,8 +572,8 @@ header.masthead {
 
 
 .blur-filter {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: white;
     position: fixed;
     opacity: 75%;
@@ -580,8 +582,8 @@ header.masthead {
 
 video {
     object-fit: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;

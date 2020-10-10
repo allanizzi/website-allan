@@ -1,3 +1,8 @@
+@media (min-width: 375px) {
+  header.masthead {
+    background-attachment: fixed !important;
+  }
+}
 @media (min-width: 500px) {
   .masthead .svg-header .sitting-man {
     display: none !important;
@@ -28,6 +33,86 @@
     margin-left: 5% !important;
   }
 }
+@media (min-width: 800px) {
+  .my-parcours .container-fluid .title-parcours {
+    font-size: 2.5em !important;
+  }
+  .my-parcours .container-fluid .div-parcours .div-school :nth-child(1) {
+    font-size: 2.3rem !important;
+  }
+  .my-parcours .container-fluid .div-parcours .div-school :nth-child(2) {
+    font-size: 1.3rem !important;
+  }
+  .my-parcours .container-fluid .div-parcours .div-school :nth-child(3) {
+    font-size: 1.7rem !important;
+  }
+  .my-parcours .container-fluid .div-parcours .div-school .icon-school {
+    width: 2.3rem !important;
+  }
+
+  .title-experiences .container-fluid .title-exp {
+    font-size: 2.5em !important;
+  }
+
+  .experiences .container #accordion .title-society span {
+    font-size: 2.3rem !important;
+  }
+  .experiences .container #accordion .card-body .descr-exp {
+    font-size: 1.1rem !important;
+  }
+
+  .title-work .container .title-wrk {
+    font-size: 2.5em !important;
+  }
+
+  .my-work .container {
+    flex-direction: row !important;
+  }
+  .my-work .container .box {
+    height: 25vw;
+    margin-bottom: 0 !important;
+  }
+  .my-work .container .box img {
+    width: 200% !important;
+  }
+  .my-work .container .box:hover > img {
+    width: 100% !important;
+  }
+  .my-work .container .box .work-name {
+    background-color: transparent !important;
+  }
+  .my-work .container .box .work-name :nth-child(1) {
+    font-size: 1.8rem !important;
+  }
+  .my-work .container .box .work-name .icon-loupe {
+    display: block !important;
+    width: 10%;
+    margin: 1rem;
+  }
+  .my-work .container .box .work-name .icon-loupe svg {
+    width: 100%;
+    height: 100%;
+    fill: #ffffffd8;
+  }
+  .my-work .container .box .work-detail span {
+    font-size: 1.8rem !important;
+  }
+  .my-work .container .box .work-detail .icon-go-hub {
+    width: 17% !important;
+  }
+  .my-work .container > :nth-child(1) {
+    border-radius: 10px 0 0 10px !important;
+  }
+  .my-work .container > :nth-child(2) {
+    border-radius: 0 10px 10px 0 !important;
+  }
+
+  .my-footer > :nth-child(1) {
+    font-family: "Marck Script", cursive;
+    font-size: 1.5rem;
+    display: block !important;
+  }
+}
 @media (min-width: 992px) {
   header.masthead {
     min-height: 40rem;
@@ -44,7 +129,7 @@
 }
 body {
   font-family: "Rubik", sans-serif !important;
-  min-width: 450px;
+  min-width: 340px;
 }
 
 #mainNav .container {
@@ -105,7 +190,6 @@ header.masthead {
   background: linear-gradient(to bottom, rgba(212, 200, 191, 0.8) 0%, #E12626 110%), url("../img/masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -135,6 +219,7 @@ header.masthead {
   color: white;
   transition: 0.25s;
   margin-bottom: 1.5rem;
+  letter-spacing: 2px;
 }
 .masthead .btn-decouvrir:hover {
   box-shadow: 0px 10px 7px #800808ad;
@@ -158,6 +243,7 @@ header.masthead {
   text-transform: uppercase;
   font-size: 2.5em;
   font-weight: 500;
+  letter-spacing: 4px;
 }
 .section-chiffres .container-fluid .divider {
   width: 120px;
@@ -200,8 +286,9 @@ header.masthead {
 }
 .my-parcours .container-fluid .title-parcours {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: 500;
+  letter-spacing: 4px;
 }
 .my-parcours .container-fluid .divider {
   width: 120px;
@@ -235,18 +322,18 @@ header.masthead {
 }
 .my-parcours .container-fluid .div-parcours .div-school :nth-child(1) {
   font-weight: 400;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
 }
 .my-parcours .container-fluid .div-parcours .div-school :nth-child(2) {
   color: #804444;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .my-parcours .container-fluid .div-parcours .div-school :nth-child(3) {
   color: #ae1b1b;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .my-parcours .container-fluid .div-parcours .div-school .icon-school {
-  width: 2.3rem;
+  width: 1.8rem;
   vertical-align: text-top;
 }
 
@@ -259,9 +346,10 @@ header.masthead {
 }
 .title-experiences .container-fluid .title-exp {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: 500;
   color: #efefef;
+  letter-spacing: 4px;
 }
 .title-experiences .container-fluid .divider {
   width: 120px;
@@ -321,9 +409,8 @@ header.masthead {
   color: white;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
-  font-size: 2.3rem;
+  font-size: 1.6rem;
   padding: 2rem;
-  padding-bottom: 1rem;
   text-align: center;
   letter-spacing: 2px;
 }
@@ -335,7 +422,7 @@ header.masthead {
 }
 .experiences .container #accordion .card-body .descr-exp {
   margin: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 1px;
 }
 .experiences .container #accordion .card-body .descr-exp ul {
@@ -355,9 +442,10 @@ header.masthead {
 }
 .title-work .container .title-wrk {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: 500;
   color: #efefef;
+  letter-spacing: 4px;
 }
 .title-work .container .divider {
   width: 120px;
@@ -373,15 +461,16 @@ header.masthead {
   margin-bottom: 6rem;
   display: flex;
   box-sizing: border-box;
+  flex-direction: column;
 }
 .my-work .container .box {
   flex: 1;
   overflow: hidden;
   transition: 0.5s;
   margin: 0;
-  height: 25vw;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   position: relative;
+  margin-bottom: 0.2rem;
 }
 .my-work .container .box:hover {
   flex: 1 1 50%;
@@ -399,7 +488,7 @@ header.masthead {
   height: 100%;
 }
 .my-work .container .box img {
-  width: 200%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
@@ -418,6 +507,7 @@ header.masthead {
   align-items: center;
   transition: 0.5s;
   opacity: 1;
+  background-color: #00000026;
 }
 .my-work .container .box .work-name span {
   padding: 3px 9px;
@@ -427,22 +517,16 @@ header.masthead {
   border-radius: 5px;
 }
 .my-work .container .box .work-name :nth-child(1) {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .my-work .container .box .work-name :nth-child(2) {
   font-size: 1.3rem;
   margin-top: 1rem;
-  background-color: #ae1b1bd6;
+  background-color: #ae1b1be0;
   color: white;
 }
 .my-work .container .box .work-name .icon-loupe {
-  width: 10%;
-  margin: 1rem;
-}
-.my-work .container .box .work-name .icon-loupe svg {
-  width: 100%;
-  height: 100%;
-  fill: #ffffffd8;
+  display: none;
 }
 .my-work .container .box .work-detail {
   opacity: 0;
@@ -465,16 +549,17 @@ header.masthead {
   letter-spacing: 3px;
   font-family: "Rubik", sans-serif;
   border-radius: 5px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: white;
-  width: 70%;
+  width: 90%;
   font-weight: 400px;
   border: 2px solid white;
   background-color: #00000085;
 }
 .my-work .container .box .work-detail .icon-go-hub {
-  width: 17%;
+  width: 27%;
   margin: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
 }
 .my-work .container .box .work-detail .icon-go-hub svg {
@@ -497,15 +582,15 @@ header.masthead {
   height: 100%;
   fill: #ffffffe3;
 }
-.my-work .container > :nth-child(1) {
-  border-radius: 10px 0 0 10px;
+.my-work .container > :first-child {
+  border-radius: 10px 10px 0 0;
+}
+.my-work .container > :last-child {
+  border-radius: 0 0 10px 10px;
 }
 .my-work .container > :nth-child(1) .work-name span {
   color: black;
-  background-color: #fffc;
-}
-.my-work .container > :nth-child(2) {
-  border-radius: 0 10px 10px 0;
+  background-color: #ffffffde;
 }
 .my-work .container > :nth-child(2) .work-name span {
   color: white;
@@ -515,7 +600,6 @@ header.masthead {
 .my-footer {
   position: fixed;
   width: 100%;
-  min-width: 450px;
   background-color: white;
   padding: 5px;
   font-family: "Karla", sans-serif;
@@ -529,8 +613,7 @@ header.masthead {
   color: black;
 }
 .my-footer > :nth-child(1) {
-  font-family: "Marck Script", cursive;
-  font-size: 1.5rem;
+  display: none;
 }
 .my-footer > :nth-child(2) {
   font-size: 0.9rem;
@@ -552,8 +635,8 @@ header.masthead {
 }
 
 .blur-filter {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: white;
   position: fixed;
   opacity: 75%;
@@ -562,8 +645,8 @@ header.masthead {
 
 video {
   object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
