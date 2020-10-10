@@ -54,6 +54,9 @@
     font-size: 2.5em !important;
   }
 
+  .experiences .container #accordion .title-society {
+    background-color: #000000ab !important;
+  }
   .experiences .container #accordion .title-society span {
     font-size: 2.3rem !important;
   }
@@ -402,7 +405,7 @@ header.masthead {
   justify-content: center;
   align-items: center;
   min-height: 150px;
-  background-color: #000000ab;
+  background-color: #00000087;
   border-radius: 15px;
 }
 .experiences .container #accordion .title-society span {
