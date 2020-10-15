@@ -71,8 +71,10 @@ body {
             .modal-title {
                 text-transform: uppercase;
                 letter-spacing: 3px;
+                text-align: center;
                 >img {
                     vertical-align: inherit;
+                    display: none;
                 }
             }
         }

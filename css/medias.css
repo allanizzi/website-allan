@@ -34,6 +34,10 @@
     margin-left: 5%;
     transform: rotateY(180deg);
   }
+
+  .modal-alert .modal-content .modal-header .modal-title > img {
+    display: inline !important;
+  }
 }
 @media (min-width: 780px) {
   .masthead .svg-header .illustration {

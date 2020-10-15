@@ -52,6 +52,18 @@
     }
     }
   }
+
+  .modal-alert {
+    .modal-content {
+        .modal-header {
+            .modal-title {
+                >img {
+                    display: inline !important;
+                }
+            }
+        }
+      }
+    }
 }
 
 @media (min-width: 780px) {
