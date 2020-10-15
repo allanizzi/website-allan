@@ -180,6 +180,11 @@ body {
 #mainNav .container .navbar-collapse .nav-link:hover {
   color: #ffffffd4;
 }
+#mainNav .container .navbar-collapse .navbar-nav .liens-hub {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
 
 #mainNav {
   box-shadow: none;

@@ -34,6 +34,13 @@ body {
                 color: #ffffffd4;
             }
         }
+        .navbar-nav {
+            .liens-hub {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+            }
+        }
     }
     
 }
