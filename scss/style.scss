@@ -65,49 +65,52 @@ body {
 // Modal 
 
 .modal-alert {
-    .modal-content {
-        overflow: hidden;
-        .modal-header {
-            .modal-title {
-                text-transform: uppercase;
-                letter-spacing: 3px;
-                text-align: center;
-                >img {
-                    vertical-align: inherit;
-                    display: none;
+    #modal-emploi {
+        .modal-content {
+            overflow: hidden;
+            .modal-header {
+                .modal-title {
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    >img {
+                        vertical-align: inherit;
+                        display: none;
+                    }
+                }
+            }
+            .modal-body {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                h4, h6 {
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: $primary-color;
+                    line-height: 2rem;
+                }
+                .div-icons {
+                    margin-bottom: 1.5rem;
+                    flex-direction: row;
+                    display: flex;
+                    margin-top: 1rem;
+                    width: 80%;
+                    justify-content: space-around;
+                }
+                >p {
+                    letter-spacing: 1px;
+                }
+            }
+            .modal-footer {
+                .btn {
+                    background-color: $primary-color;
+                    color: white;
                 }
             }
         }
-        .modal-body {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            h5 {
-                text-align: center;
-                text-transform: uppercase;
-                color: $primary-color;
-                line-height: 2rem;
-            }
-            .div-icons {
-                margin-bottom: 1.5rem;
-                flex-direction: row;
-                display: flex;
-                margin-top: 1rem;
-                width: 80%;
-                justify-content: space-around;
-            }
-            >p {
-                letter-spacing: 1px;
-            }
-        }
-        .modal-footer {
-            .btn {
-                background-color: $primary-color;
-                color: white;
-            }
-        }
     }
+
 }
 
 // Fin modal
