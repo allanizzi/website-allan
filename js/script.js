@@ -145,5 +145,6 @@
 
     // fin counter
 
+    $('#modal-emploi').modal('show')
   
   })(jQuery); // End of use strict

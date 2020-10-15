@@ -201,6 +201,44 @@ body {
   transition: background-color 0.4s ease;
 }
 
+.modal-alert .modal-content {
+  overflow: hidden;
+}
+.modal-alert .modal-content .modal-header .modal-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.modal-alert .modal-content .modal-header .modal-title > img {
+  vertical-align: inherit;
+}
+.modal-alert .modal-content .modal-body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.modal-alert .modal-content .modal-body h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ae1b1b;
+  line-height: 2rem;
+}
+.modal-alert .modal-content .modal-body .div-icons {
+  margin-bottom: 1.5rem;
+  flex-direction: row;
+  display: flex;
+  margin-top: 1rem;
+  width: 80%;
+  justify-content: space-around;
+}
+.modal-alert .modal-content .modal-body > p {
+  letter-spacing: 1px;
+}
+.modal-alert .modal-content .modal-footer .btn {
+  background-color: #ae1b1b;
+  color: white;
+}
+
 .avatar-moi {
   border-radius: 50%;
   border: 3px solid rgba(226, 221, 221, 0.945);
