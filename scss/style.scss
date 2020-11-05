@@ -437,7 +437,7 @@ header.masthead {
 
 .my-work {
     position: relative;
-    .container {
+    >.container {
         margin-top: 4rem;
         margin-bottom: 6rem;
         box-sizing: border-box;
@@ -596,6 +596,46 @@ header.masthead {
         }
 
     }
+
+.title-publicites {
+    padding: 1.3rem;
+    background: linear-gradient(to right, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    padding-bottom: .5rem;
+    margin-top: 3rem;
+    .container {
+        .title-pubs {
+            text-transform: uppercase;
+            font-size: 2.2em;
+            font-weight: 500;
+            color: #b03232;
+            letter-spacing: 4px;
+        }
+        .divider {
+            width: 120px;
+            border-width: 0.2rem;
+            border-color: $primary-color;
+        }
+    }
+}
+
+    .description-pubs {
+        width: 50%;
+        font-size: 1.2rem;
+    }
+
+    .carousel {
+        width: 50%;
+        margin-bottom: 5rem;
+        ol {
+            li {
+                background-color: black;
+            }
+            .active {
+                background-color: white;
+            }
+        } 
+    }
 }
 
 // Section footer bas de page
@@ -611,6 +651,7 @@ header.masthead {
     justify-content: space-around;
     flex-direction: row;
     bottom: 0;
+    z-index: 30;
     span {
         color: black;
     }
