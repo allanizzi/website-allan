@@ -123,11 +123,11 @@
   .my-work .container .box .work-detail .icon-go-hub {
     width: 17% !important;
   }
-  .my-work .container > :nth-child(1) {
-    border-radius: 10px 0 0 10px !important;
+  .my-work .container .box .work-detail .icon-go-invision {
+    width: 9% !important;
   }
-  .my-work .container > :nth-child(2) {
-    border-radius: 0 10px 10px 0 !important;
+  .my-work .container > :nth-child(2) > :first-child .work-detail > span {
+    font-size: 1.2rem !important;
   }
 
   .my-footer > :nth-child(1) {

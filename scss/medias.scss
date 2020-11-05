@@ -186,14 +186,18 @@
                 .icon-go-hub {
                     width: 17% !important;
                 }
+                .icon-go-invision {
+                  width: 9% !important;
+              }
             }
         }
-        >:nth-child(1) {
-            border-radius: 10px 0 0 10px !important;
-        }
         >:nth-child(2) {
-            border-radius: 0 10px 10px 0 !important;
-        }
+          >:first-child {
+              .work-detail > span {
+                  font-size: 1.2rem !important;
+              }
+          }
+      }
         
     }
   }
