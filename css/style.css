@@ -126,7 +126,7 @@
   .my-work .container .box .work-detail .icon-go-invision {
     width: 9% !important;
   }
-  .my-work .container > :nth-child(2) > :first-child .work-detail > span {
+  .my-work .container > :nth-child(2) .work-detail > span {
     font-size: 1.2rem !important;
   }
 
@@ -673,7 +673,7 @@ header.masthead {
   fill: #ffffffe3;
   margin-left: 1rem;
 }
-.my-work > .container > :nth-child(2) > :first-child .work-detail > span {
+.my-work > .container > :nth-child(2) .work-detail > span {
   font-size: 1rem;
 }
 .my-work .title-publicites {

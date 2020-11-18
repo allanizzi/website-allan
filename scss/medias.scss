@@ -192,10 +192,8 @@
             }
         }
         >:nth-child(2) {
-          >:first-child {
-              .work-detail > span {
-                  font-size: 1.2rem !important;
-              }
+          .work-detail > span {
+              font-size: 1.2rem !important;
           }
       }
         

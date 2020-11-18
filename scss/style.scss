@@ -588,10 +588,8 @@ header.masthead {
             
         }
         >:nth-child(2) {
-            >:first-child {
-                .work-detail > span {
-                    font-size: 1rem;
-                }
+            .work-detail > span {
+                font-size: 1rem;
             }
         }
 
