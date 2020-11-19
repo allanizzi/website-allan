@@ -676,7 +676,7 @@ header.masthead {
 .my-work > .container > :nth-child(2) .work-detail > span {
   font-size: 1rem;
 }
-.my-work .title-publicites {
+.my-work .title-ads, .my-work .title-mockups {
   padding: 1.3rem;
   background: linear-gradient(to right, #abbaab, #ffffff);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -684,31 +684,23 @@ header.masthead {
   padding-bottom: 0.5rem;
   margin-top: 3rem;
 }
-.my-work .title-publicites .container .title-pubs {
+.my-work .title-ads .container .title-pub, .my-work .title-ads .container .title-mock, .my-work .title-mockups .container .title-pub, .my-work .title-mockups .container .title-mock {
   text-transform: uppercase;
   font-size: 2.2em;
   font-weight: 500;
   color: #b03232;
   letter-spacing: 4px;
 }
-.my-work .title-publicites .container .divider {
+.my-work .title-ads .container .divider, .my-work .title-mockups .container .divider {
   width: 120px;
   border-width: 0.2rem;
   border-color: #ae1b1b;
 }
-.my-work .description-pubs {
-  width: 50%;
-  font-size: 1.2rem;
+.my-work .my-mockups, .my-work .my-adss {
+  margin-bottom: 7rem;
 }
-.my-work .carousel {
-  width: 50%;
-  margin-bottom: 5rem;
-}
-.my-work .carousel ol li {
-  background-color: black;
-}
-.my-work .carousel ol .active {
-  background-color: white;
+.my-work .my-mockups .mockup, .my-work .my-mockups .ad, .my-work .my-adss .mockup, .my-work .my-adss .ad {
+  padding: 0;
 }
 
 .my-footer {
