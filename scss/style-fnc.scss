@@ -3,79 +3,31 @@
 $primary-color: #ae1b1b;
 
 
-// section mywe
-.section-mywe {
+// section fnc
+.section-fnc {
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding: 3em;
     position: relative;
     .container-fluid {
-        .description-mywe {
+        .description-fnc {
             font-size: 1.2rem;
             letter-spacing: 2px;
             white-space: pre-line;
         }
-        .title-mywe {
+        .title-fnc {
             text-transform: uppercase;
             font-size: 2.5em;
             font-weight: 500;
             letter-spacing: 4px;
-        }
-        .title-whatsnight, .title-sketchs {
-            font-size: 2em;
-            font-weight: 500;
-            letter-spacing: 4px;
-            text-align: left;
-            margin-top: 4rem;
         }
         .divider {
             width: 120px;
             border-width: 0.2rem;
             border-color: $primary-color;
         }
-        .divider-whatsnight, .divider-sketchs {
-            width: 60vw;
-            border-width: 0.2rem;
-            border-color: $primary-color;
-            margin-left: 9%;
-            max-width: 470px;
-        }
 
-        .previous-app {
-            display: flex;
-            width: 100%;
-            padding: 1% 0%;
-            box-sizing: border-box;
-            height: auto;
-            .box {
-                flex: 1;
-                display: flex;
-                overflow: hidden;
-                transition: .5s;
-                margin: 1% 1%;
-                line-height: 0;
-                img {
-                    width: 150%;
-                    object-fit: cover; 
-                    transition: .5s;
-                }
-            }
-            .box:hover { flex: 1 1 50%; }
-            .box:hover > img {
-            width: 100%;
-            height: 100%;
-            }
-        }
-
-        .sketch-app {
-            margin-top: 3rem;
-            margin-bottom: 5rem;
-            .col img {
-                height: 100%;
-            }
-        }
-
-        .div-mywe {
+        .div-fnc {
             display: flex;
             height: 50vh;
             margin-top: 4rem;
@@ -89,16 +41,16 @@ $primary-color: #ae1b1b;
             }
             &:hover {
                 cursor: pointer;
-                .mywe-text {
+                .fnc-text {
                    opacity: 0; 
                 }
-                .mywe-overlay {
+                .fnc-overlay {
                     opacity: 1;
                     transition: .5s;
                 }
             }
 
-            .mywe-text {
+            .fnc-text {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -133,7 +85,7 @@ $primary-color: #ae1b1b;
                 background-color: #000000cf;
             }
 
-            .mywe-overlay {
+            .fnc-overlay {
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -153,20 +105,7 @@ $primary-color: #ae1b1b;
                     object-fit: contain;
                     transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
-                }
-                span {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    -ms-transform: translate(-50%, -50%);
-                    padding: 3px 9px;
-                    text-transform: uppercase;
-                    letter-spacing: 3px;
-                    font-family: 'Karla', sans-serif;
-                    border-radius: 5px;
-                    font-size: 1.5rem;
-                }
+                  }
             }
             &:hover {
                 opacity: 1;
@@ -175,4 +114,4 @@ $primary-color: #ae1b1b;
     }
 }
 
-// fin section mywe
+// fin section fnc
