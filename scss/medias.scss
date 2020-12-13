@@ -64,6 +64,14 @@
         }
       }
     }
+
+    .section-mywe {
+      .container-fluid .div-mywe {
+        .mywe-text span {
+          font-size: 2rem !important;
+        }
+      }
+    }
 }
 
 @media (min-width: 780px) {
@@ -181,21 +189,26 @@
 
             .work-detail {
                 span {
-                    font-size: 1.8rem !important;
+                    font-size: 1.2rem !important;
                 }
                 .icon-go-hub {
                     width: 17% !important;
                 }
-                .icon-go-invision {
+                .icon-go-invision, .icon-go-details {
                   width: 9% !important;
-              }
+                }
             }
         }
-        >:nth-child(2) {
-          .work-detail > span {
-              font-size: 1.2rem !important;
-          }
-      }
+        // >:nth-child(2) {
+        //   .work-detail > span {
+        //       font-size: 1.2rem !important;
+        //   }
+        // }
+        // >:nth-child(4) {
+        //   .work-detail > span {
+        //       font-size: 1.2rem !important;
+        //   }
+        // }
         
     }
   }
