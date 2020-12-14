@@ -39,21 +39,24 @@ $primary-color: #ae1b1b;
             border-color: $primary-color;
             margin-left: 9%;
             max-width: 470px;
+            margin-bottom: 3%;
         }
 
         .previous-app {
             display: flex;
-            width: 100%;
-            padding: 1% 0%;
+            width: 90%;
+            padding: 5px 0;
             box-sizing: border-box;
             height: auto;
+            margin: 0 auto;
             .box {
                 flex: 1;
                 display: flex;
                 overflow: hidden;
                 transition: .5s;
-                margin: 1% 1%;
+                margin: 0% 5px;
                 line-height: 0;
+                box-shadow: 3px 2px 9px #1e1f1b73;
                 img {
                     width: 150%;
                     object-fit: cover; 
