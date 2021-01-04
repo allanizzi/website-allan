@@ -254,4 +254,11 @@
   opacity: 1;
 }
 
+.my-mockups {
+  margin-bottom: 7rem;
+}
+.my-mockups .mockup {
+  padding: 0;
+}
+
 /*# sourceMappingURL=style-fnc.css.map */
